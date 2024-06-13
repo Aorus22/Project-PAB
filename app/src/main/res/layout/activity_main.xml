@@ -7,23 +7,20 @@
     android:padding="16dp"
     tools:context=".MainActivity">
 
-    <!-- ImageView for the chart -->
     <ImageView
         android:id="@+id/chartImageView"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:layout_marginBottom="16dp"
-        android:contentDescription="Chart Image"
+        android:contentDescription="@string/chart_image"
         android:scaleType="centerInside"
         android:src="@drawable/chart_dummy_1" />
 
-    <!-- ScrollView to contain GridLayout -->
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1">
 
-        <!-- GridLayout for buttons -->
         <GridLayout
             android:id="@+id/buttonsContainer"
             android:layout_width="match_parent"

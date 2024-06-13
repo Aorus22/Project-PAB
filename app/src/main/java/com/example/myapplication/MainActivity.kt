@@ -35,11 +35,6 @@ class MainActivity : AppCompatActivity() {
             Triple("Fakultas", "Ilmu Budaya", R.drawable.chart_dummy_4)
         )
 
-        val numRows = (faculties.size + 1) / 2
-
-        buttonsContainer.removeAllViews()
-        buttonsContainer.columnCount = 2
-
         for ((index, faculty) in faculties.withIndex()) {
             val facultyLabel = faculty.first
             val departmentName = faculty.second

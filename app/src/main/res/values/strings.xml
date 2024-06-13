@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">My Application</string>
     <string name="chart">chart</string>
+    <string name="chart_image">Chart Image</string>
+    <string name="fakultas">Fakultas</string>
+    <string name="department">Department</string>
+    <string name="lihat_detail">Lihat detail</string>
 </resources>
