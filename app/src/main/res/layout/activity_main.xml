@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#E0F7FA">
+
+    <!-- ImageView for the dummy chart -->
+    <ImageView
+        android:id="@+id/chartImageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/chart_dummy_1"
+        android:contentDescription="@string/chart"/>
+
+    <!-- GridLayout for the buttons -->
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:columnCount="2"
+        android:rowCount="3"
+        android:columnOrderPreserved="false"
+        android:layout_gravity="center">
+
+    <!-- Button 1 -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:background="#00BCD4"
+        android:layout_margin="4dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fakultas Teknik"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonTeknik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lihat detail"
+            android:background="?android:attr/selectableItemBackground"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <!-- Button 2 -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:background="#00BCD4"
+        android:layout_margin="4dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fakultas Pertanian"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonPertanian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lihat detail"
+            android:background="?android:attr/selectableItemBackground"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <!-- Add IDs for other buttons similarly -->
+
+    <!-- Button 3 -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:background="#00BCD4"
+        android:layout_margin="4dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fakultas MIPA"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonMIPA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lihat detail"
+            android:background="?android:attr/selectableItemBackground"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <!-- Button 4 -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:background="#00BCD4"
+        android:layout_margin="4dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fakultas Kedokteran"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonKedokteran"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lihat detail"
+            android:background="?android:attr/selectableItemBackground"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <!-- Button 5 -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:background="#00BCD4"
+        android:layout_margin="4dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fakultas Ilmu Pendidikan"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonIlmuPendidikan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lihat detail"
+            android:background="?android:attr/selectableItemBackground"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <!-- Button 6 -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:background="#00BCD4"
+        android:layout_margin="4dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Program Pasca Sarjana"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonPascaSarjana"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lihat detail"
+            android:background="?android:attr/selectableItemBackground"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <!-- Button 7 -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:background="#00BCD4"
+        android:layout_margin="4dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fakultas Hukum"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonHukum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lihat detail"
+            android:background="?android:attr/selectableItemBackground"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <!-- Button 8 -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:background="#00BCD4"
+        android:layout_margin="4dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fakultas Ilmu Budaya"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonIlmuBudaya"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lihat detail"
+            android:background="?android:attr/selectableItemBackground"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+    </GridLayout>
+
+</LinearLayout>
