@@ -14,14 +14,12 @@
         android:orientation="vertical"
         android:padding="16dp">
 
-        <!-- Nama Fakultas dan Nama Departemen -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:gravity="center_vertical">
 
-            <!-- Logo -->
             <ImageView
                 android:id="@+id/icon"
                 android:layout_width="40dp"
@@ -29,14 +27,12 @@
                 android:layout_marginEnd="16dp"
                 android:src="@drawable/ic_placeholder" />
 
-            <!-- Nama Fakultas dan Nama Departemen -->
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:orientation="vertical">
 
-                <!-- Nama Fakultas -->
                 <TextView
                     android:id="@+id/facultyName"
                     android:layout_width="wrap_content"
@@ -46,12 +42,11 @@
                     android:textSize="14sp"
                     android:textStyle="bold" />
 
-                <!-- Nama Departemen -->
                 <TextView
                     android:id="@+id/departmentName"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Pertanian"
+                    android:text="Department"
                     android:textColor="@color/black"
                     android:textSize="16sp"
                     android:layout_marginTop="4dp" />
@@ -60,7 +55,6 @@
 
         </LinearLayout>
 
-        <!-- Tombol "Lihat Detail" -->
         <Button
             android:id="@+id/detailButton"
             android:layout_width="wrap_content"
@@ -68,7 +62,8 @@
             android:layout_marginTop="8dp"
             android:text="Lihat detail"
             android:textColor="@color/black"
-            android:background="?android:attr/selectableItemBackground" />
+            android:background="?android:attr/selectableItemBackground"
+            android:gravity="start" />
 
     </LinearLayout>
 
