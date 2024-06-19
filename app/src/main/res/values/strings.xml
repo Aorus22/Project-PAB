@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">My Application</string>
     <string name="chart">chart</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="header_image">Header Image</string>
+    <string name="data_penelitian">Data Penelitian</string>
+    <string name="last_update">Last Update: 12/12/2019</string>
+    <string name="data_penelitian_desc">Data penelitian adalah informasi yang dikumpulkan secara sistematis untuk menjawab pertanyaan atau menguji hipotesis dalam suatu studi. Data ini dapat bersifat kuantitatif (angka) atau kualitatif (deskriptif) dan berasal dari berbagai sumber seperti survei, eksperimen, observasi, atau wawancara.</string>
+    <string name="statistik_data_penelitian">Statistik Data Penelitian</string>
+    <string name="kembali">Kembali</string>
+    <string name="statistik">Statistik</string>
 </resources>
