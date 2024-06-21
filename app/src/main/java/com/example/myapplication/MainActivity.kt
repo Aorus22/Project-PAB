@@ -1,10 +1,12 @@
 package com.example.myapplication
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import android.widget.ImageView
 import android.view.LayoutInflater
 import android.view.View
+import android.widget.Button
 import android.widget.GridLayout
 import android.widget.TextView
 import androidx.cardview.widget.CardView
@@ -59,6 +61,7 @@ class MainActivity : AppCompatActivity() {
         val icon = cardView.findViewById<ImageView>(R.id.icon)
         val facultyName = cardView.findViewById<TextView>(R.id.facultyName)
         val department = cardView.findViewById<TextView>(R.id.departmentName)
+        val detailButton = cardView.findViewById<Button>(R.id.detailButton)
 
         icon.setImageResource(R.drawable.ic_placeholder)
         facultyName.text = facultyLabel
@@ -68,10 +71,21 @@ class MainActivity : AppCompatActivity() {
             changeChartImage(drawableResId)
         }
 
+        detailButton.setOnClickListener {
+            goToTabelActivity(departmentName)
+        }
+
         return cardView
     }
 
     private fun changeChartImage(drawableResId: Int) {
         chartImageView.setImageResource(drawableResId)
+    }
+
+    private fun goToTabelActivity(departmentName: String) {
+        val intent = Intent(this, TabelActivity::class.java).apply {
+            putExtra("EXTRA_FACULTY_NAME", departmentName)
+        }
+        startActivity(intent)
     }
 }

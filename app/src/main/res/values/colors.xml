@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
-    <color name="teal_200">#80CBC4</color>
     <color name="teal_700">#00796B</color>
+    <color name="background_color">#F5F5F5</color>
+    <color name="text_color">#333333</color>
+    <color name="header_background">#E0E0E0</color>
+    <color name="box_border_color">#DDDDDD</color>
+    <color name="white">#FFFFFF</color>
+    <color name="teal_200">#80CBC4</color>
 </resources>
